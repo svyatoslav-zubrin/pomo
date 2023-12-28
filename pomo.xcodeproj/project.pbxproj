@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9786C9B2B3DCFA600D011F7 /* pomoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9786C9A2B3DCFA600D011F7 /* pomoApp.swift */; };
+		F9786C9D2B3DCFA600D011F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9786C9C2B3DCFA600D011F7 /* ContentView.swift */; };
+		F9786C9F2B3DCFA900D011F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9786C9E2B3DCFA900D011F7 /* Assets.xcassets */; };
+		F9786CA22B3DCFA900D011F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9786CA12B3DCFA900D011F7 /* Preview Assets.xcassets */; };
+		F9786CAC2B3DCFA900D011F7 /* pomoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9786CAB2B3DCFA900D011F7 /* pomoTests.swift */; };
+		F9786CB62B3DCFA900D011F7 /* pomoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9786CB52B3DCFA900D011F7 /* pomoUITests.swift */; };
+		F9786CB82B3DCFA900D011F7 /* pomoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9786CB72B3DCFA900D011F7 /* pomoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9786CA82B3DCFA900D011F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9786C8F2B3DCFA600D011F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9786C962B3DCFA600D011F7;
+			remoteInfo = pomo;
+		};
+		F9786CB22B3DCFA900D011F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9786C8F2B3DCFA600D011F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9786C962B3DCFA600D011F7;
+			remoteInfo = pomo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9786C972B3DCFA600D011F7 /* pomo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pomo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9786C9A2B3DCFA600D011F7 /* pomoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pomoApp.swift; sourceTree = "<group>"; };
+		F9786C9C2B3DCFA600D011F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F9786C9E2B3DCFA900D011F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9786CA12B3DCFA900D011F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F9786CA72B3DCFA900D011F7 /* pomoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pomoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9786CAB2B3DCFA900D011F7 /* pomoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pomoTests.swift; sourceTree = "<group>"; };
+		F9786CB12B3DCFA900D011F7 /* pomoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pomoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9786CB52B3DCFA900D011F7 /* pomoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pomoUITests.swift; sourceTree = "<group>"; };
+		F9786CB72B3DCFA900D011F7 /* pomoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pomoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9786C942B3DCFA600D011F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9786CA42B3DCFA900D011F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9786CAE2B3DCFA900D011F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9786C8E2B3DCFA600D011F7 = {
+			isa = PBXGroup;
+			children = (
+				F9786C992B3DCFA600D011F7 /* pomo */,
+				F9786CAA2B3DCFA900D011F7 /* pomoTests */,
+				F9786CB42B3DCFA900D011F7 /* pomoUITests */,
+				F9786C982B3DCFA600D011F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9786C982B3DCFA600D011F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9786C972B3DCFA600D011F7 /* pomo.app */,
+				F9786CA72B3DCFA900D011F7 /* pomoTests.xctest */,
+				F9786CB12B3DCFA900D011F7 /* pomoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9786C992B3DCFA600D011F7 /* pomo */ = {
+			isa = PBXGroup;
+			children = (
+				F9786C9A2B3DCFA600D011F7 /* pomoApp.swift */,
+				F9786C9C2B3DCFA600D011F7 /* ContentView.swift */,
+				F9786C9E2B3DCFA900D011F7 /* Assets.xcassets */,
+				F9786CA02B3DCFA900D011F7 /* Preview Content */,
+			);
+			path = pomo;
+			sourceTree = "<group>";
+		};
+		F9786CA02B3DCFA900D011F7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F9786CA12B3DCFA900D011F7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F9786CAA2B3DCFA900D011F7 /* pomoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9786CAB2B3DCFA900D011F7 /* pomoTests.swift */,
+			);
+			path = pomoTests;
+			sourceTree = "<group>";
+		};
+		F9786CB42B3DCFA900D011F7 /* pomoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9786CB52B3DCFA900D011F7 /* pomoUITests.swift */,
+				F9786CB72B3DCFA900D011F7 /* pomoUITestsLaunchTests.swift */,
+			);
+			path = pomoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9786C962B3DCFA600D011F7 /* pomo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9786CBB2B3DCFA900D011F7 /* Build configuration list for PBXNativeTarget "pomo" */;
+			buildPhases = (
+				F9786C932B3DCFA600D011F7 /* Sources */,
+				F9786C942B3DCFA600D011F7 /* Frameworks */,
+				F9786C952B3DCFA600D011F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pomo;
+			productName = pomo;
+			productReference = F9786C972B3DCFA600D011F7 /* pomo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9786CA62B3DCFA900D011F7 /* pomoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9786CBE2B3DCFA900D011F7 /* Build configuration list for PBXNativeTarget "pomoTests" */;
+			buildPhases = (
+				F9786CA32B3DCFA900D011F7 /* Sources */,
+				F9786CA42B3DCFA900D011F7 /* Frameworks */,
+				F9786CA52B3DCFA900D011F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9786CA92B3DCFA900D011F7 /* PBXTargetDependency */,
+			);
+			name = pomoTests;
+			productName = pomoTests;
+			productReference = F9786CA72B3DCFA900D011F7 /* pomoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9786CB02B3DCFA900D011F7 /* pomoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9786CC12B3DCFA900D011F7 /* Build configuration list for PBXNativeTarget "pomoUITests" */;
+			buildPhases = (
+				F9786CAD2B3DCFA900D011F7 /* Sources */,
+				F9786CAE2B3DCFA900D011F7 /* Frameworks */,
+				F9786CAF2B3DCFA900D011F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9786CB32B3DCFA900D011F7 /* PBXTargetDependency */,
+			);
+			name = pomoUITests;
+			productName = pomoUITests;
+			productReference = F9786CB12B3DCFA900D011F7 /* pomoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9786C8F2B3DCFA600D011F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					F9786C962B3DCFA600D011F7 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					F9786CA62B3DCFA900D011F7 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = F9786C962B3DCFA600D011F7;
+					};
+					F9786CB02B3DCFA900D011F7 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = F9786C962B3DCFA600D011F7;
+					};
+				};
+			};
+			buildConfigurationList = F9786C922B3DCFA600D011F7 /* Build configuration list for PBXProject "pomo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9786C8E2B3DCFA600D011F7;
+			productRefGroup = F9786C982B3DCFA600D011F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9786C962B3DCFA600D011F7 /* pomo */,
+				F9786CA62B3DCFA900D011F7 /* pomoTests */,
+				F9786CB02B3DCFA900D011F7 /* pomoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9786C952B3DCFA600D011F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9786CA22B3DCFA900D011F7 /* Preview Assets.xcassets in Resources */,
+				F9786C9F2B3DCFA900D011F7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9786CA52B3DCFA900D011F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9786CAF2B3DCFA900D011F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9786C932B3DCFA600D011F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9786C9D2B3DCFA600D011F7 /* ContentView.swift in Sources */,
+				F9786C9B2B3DCFA600D011F7 /* pomoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9786CA32B3DCFA900D011F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9786CAC2B3DCFA900D011F7 /* pomoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9786CAD2B3DCFA900D011F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9786CB62B3DCFA900D011F7 /* pomoUITests.swift in Sources */,
+				F9786CB82B3DCFA900D011F7 /* pomoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9786CA92B3DCFA900D011F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9786C962B3DCFA600D011F7 /* pomo */;
+			targetProxy = F9786CA82B3DCFA900D011F7 /* PBXContainerItemProxy */;
+		};
+		F9786CB32B3DCFA900D011F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9786C962B3DCFA600D011F7 /* pomo */;
+			targetProxy = F9786CB22B3DCFA900D011F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F9786CB92B3DCFA900D011F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9786CBA2B3DCFA900D011F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9786CBC2B3DCFA900D011F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pomo/Preview Content\"";
+				DEVELOPMENT_TEAM = 7SVGZ8TSN7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.zubrin.pomo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9786CBD2B3DCFA900D011F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pomo/Preview Content\"";
+				DEVELOPMENT_TEAM = 7SVGZ8TSN7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.zubrin.pomo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F9786CBF2B3DCFA900D011F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SVGZ8TSN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.zubrin.pomoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pomo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pomo";
+			};
+			name = Debug;
+		};
+		F9786CC02B3DCFA900D011F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SVGZ8TSN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.zubrin.pomoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pomo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pomo";
+			};
+			name = Release;
+		};
+		F9786CC22B3DCFA900D011F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SVGZ8TSN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.zubrin.pomoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pomo;
+			};
+			name = Debug;
+		};
+		F9786CC32B3DCFA900D011F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SVGZ8TSN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.zubrin.pomoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pomo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9786C922B3DCFA600D011F7 /* Build configuration list for PBXProject "pomo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9786CB92B3DCFA900D011F7 /* Debug */,
+				F9786CBA2B3DCFA900D011F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9786CBB2B3DCFA900D011F7 /* Build configuration list for PBXNativeTarget "pomo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9786CBC2B3DCFA900D011F7 /* Debug */,
+				F9786CBD2B3DCFA900D011F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9786CBE2B3DCFA900D011F7 /* Build configuration list for PBXNativeTarget "pomoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9786CBF2B3DCFA900D011F7 /* Debug */,
+				F9786CC02B3DCFA900D011F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9786CC12B3DCFA900D011F7 /* Build configuration list for PBXNativeTarget "pomoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9786CC22B3DCFA900D011F7 /* Debug */,
+				F9786CC32B3DCFA900D011F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9786C8F2B3DCFA600D011F7 /* Project object */;
+}
