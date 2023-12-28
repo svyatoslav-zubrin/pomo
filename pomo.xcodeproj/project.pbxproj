@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		F9786C9B2B3DCFA600D011F7 /* pomoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9786C9A2B3DCFA600D011F7 /* pomoApp.swift */; };
-		F9786C9D2B3DCFA600D011F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9786C9C2B3DCFA600D011F7 /* ContentView.swift */; };
 		F9786C9F2B3DCFA900D011F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9786C9E2B3DCFA900D011F7 /* Assets.xcassets */; };
 		F9786CA22B3DCFA900D011F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9786CA12B3DCFA900D011F7 /* Preview Assets.xcassets */; };
 		F9786CAC2B3DCFA900D011F7 /* pomoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9786CAB2B3DCFA900D011F7 /* pomoTests.swift */; };
 		F9786CB62B3DCFA900D011F7 /* pomoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9786CB52B3DCFA900D011F7 /* pomoUITests.swift */; };
 		F9786CB82B3DCFA900D011F7 /* pomoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9786CB72B3DCFA900D011F7 /* pomoUITestsLaunchTests.swift */; };
+		F9786CCC2B3DD0F900D011F7 /* PomoClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9786CCB2B3DD0F900D011F7 /* PomoClock.swift */; };
+		F9786CD02B3DD10100D011F7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9786CCD2B3DD10000D011F7 /* SettingsView.swift */; };
+		F9786CD12B3DD10100D011F7 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9786CCE2B3DD10100D011F7 /* TimerView.swift */; };
+		F9786CD22B3DD10100D011F7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9786CCF2B3DD10100D011F7 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		F9786C972B3DCFA600D011F7 /* pomo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pomo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9786C9A2B3DCFA600D011F7 /* pomoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pomoApp.swift; sourceTree = "<group>"; };
-		F9786C9C2B3DCFA600D011F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F9786C9E2B3DCFA900D011F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9786CA12B3DCFA900D011F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F9786CA72B3DCFA900D011F7 /* pomoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pomoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,10 @@
 		F9786CB12B3DCFA900D011F7 /* pomoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pomoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9786CB52B3DCFA900D011F7 /* pomoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pomoUITests.swift; sourceTree = "<group>"; };
 		F9786CB72B3DCFA900D011F7 /* pomoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pomoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F9786CCB2B3DD0F900D011F7 /* PomoClock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PomoClock.swift; sourceTree = "<group>"; };
+		F9786CCD2B3DD10000D011F7 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F9786CCE2B3DD10100D011F7 /* TimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		F9786CCF2B3DD10100D011F7 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				F9786C9A2B3DCFA600D011F7 /* pomoApp.swift */,
-				F9786C9C2B3DCFA600D011F7 /* ContentView.swift */,
+				F9786CC42B3DD03900D011F7 /* Features */,
 				F9786C9E2B3DCFA900D011F7 /* Assets.xcassets */,
 				F9786CA02B3DCFA900D011F7 /* Preview Content */,
 			);
@@ -125,6 +131,57 @@
 				F9786CB72B3DCFA900D011F7 /* pomoUITestsLaunchTests.swift */,
 			);
 			path = pomoUITests;
+			sourceTree = "<group>";
+		};
+		F9786CC42B3DD03900D011F7 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				F9786CC62B3DD04E00D011F7 /* History */,
+				F9786CC52B3DD04600D011F7 /* Pomodoro */,
+				F9786CC72B3DD05600D011F7 /* Settings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		F9786CC52B3DD04600D011F7 /* Pomodoro */ = {
+			isa = PBXGroup;
+			children = (
+				F9786CCA2B3DD0AD00D011F7 /* Controllers */,
+				F9786CC92B3DD0A600D011F7 /* Views */,
+			);
+			path = Pomodoro;
+			sourceTree = "<group>";
+		};
+		F9786CC62B3DD04E00D011F7 /* History */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		F9786CC72B3DD05600D011F7 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		F9786CC92B3DD0A600D011F7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F9786CCF2B3DD10100D011F7 /* MainView.swift */,
+				F9786CCD2B3DD10000D011F7 /* SettingsView.swift */,
+				F9786CCE2B3DD10100D011F7 /* TimerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F9786CCA2B3DD0AD00D011F7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F9786CCB2B3DD0F900D011F7 /* PomoClock.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +314,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9786C9D2B3DCFA600D011F7 /* ContentView.swift in Sources */,
+				F9786CD02B3DD10100D011F7 /* SettingsView.swift in Sources */,
 				F9786C9B2B3DCFA600D011F7 /* pomoApp.swift in Sources */,
+				F9786CD12B3DD10100D011F7 /* TimerView.swift in Sources */,
+				F9786CD22B3DD10100D011F7 /* MainView.swift in Sources */,
+				F9786CCC2B3DD0F900D011F7 /* PomoClock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +497,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = home.zubrin.pomo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -466,6 +529,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = home.zubrin.pomo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
